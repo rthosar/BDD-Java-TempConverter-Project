@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Convert Temperature from Centigrade to Fahrenheit",
+        "description": "",
+        "id": "develope-a-centigrade-to-fahrenheit;convert-temperature-from-centigrade-to-fahrenheit;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2086715,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open  a temparature converter and give 20.00C in Centigrade",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20.00",
+                  "offset": 39
+                }
+              ],
+              "location": "TempConverterStepdef.open_a_temparature_converter_and_give_C_in_Centigrade(Double)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1608295,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on convert \"CToF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CToF\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TempConverterStepdef.click_on_convert(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2803752,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the temparature 68.00F in Fahrenheit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "68.00",
+                  "offset": 23
+                }
+              ],
+              "location": "TempConverterStepdef.verify_the_temparature_F_in_Fahrenheit(Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Convert Temperature from Centigrade to Fahrenheit",
+        "description": "",
+        "id": "develope-a-centigrade-to-fahrenheit;convert-temperature-from-centigrade-to-fahrenheit;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 856493,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open  a temparature converter and give 30.00C in Centigrade",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30.00",
+                  "offset": 39
+                }
+              ],
+              "location": "TempConverterStepdef.open_a_temparature_converter_and_give_C_in_Centigrade(Double)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2036542,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on convert \"CToF\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CToF\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TempConverterStepdef.click_on_convert(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 845827,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the temparature 86.00F in Fahrenheit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "86.00",
+                  "offset": 23
+                }
+              ],
+              "location": "TempConverterStepdef.verify_the_temparature_F_in_Fahrenheit(Double)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Develope a Centigrade to Fahrenheit",
+    "description": "\tTemperature Converter... ",
+    "id": "develope-a-centigrade-to-fahrenheit",
+    "keyword": "Feature",
+    "uri": "Temparature/TempConvereter.feature",
+    "tags": []
+  }
+]
